@@ -19,7 +19,7 @@
             <!-- home con -->
             <div class="home-container j-flex">
                 <div class="home flex"> <i class="fa-solid fa-house"></i>
-                    <p>Home</p>
+                    <p id="home">Home</p>
                 </div>
                 <div class="search flex"> <i class="fa-solid fa-magnifying-glass"></i>
                     <p>Search</p>
@@ -97,12 +97,15 @@
 
                     <div class="card flex">
                         <div class="circle">
-                            <img class="pause" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHJvbGU9ImltZyIgaGVpZ2h0PSIyNCIgd2lkdGg9IjI0IiBhcmlhLWhpZGRlbj0idHJ1ZSIgdmlld0JveD0iMCAwIDI0IDI0IiBkYXRhLWVuY29yZS1pZD0iaWNvbiIgY2xhc3M9IlN2Zy1zYy15dGsyMWUtMCBoYU54UHEiPjxwYXRoIGQ9Im03LjA1IDMuNjA2IDEzLjQ5IDcuNzg4YS43LjcgMCAwIDEgMCAxLjIxMkw3LjA1IDIwLjM5NEEuNy43IDAgMCAxIDYgMTkuNzg4VjQuMjEyYS43LjcgMCAwIDEgMS4wNS0uNjA2eiIvPjwvc3ZnPg=="
+                            <img class="pause"
+                                src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHJvbGU9ImltZyIgaGVpZ2h0PSIyNCIgd2lkdGg9IjI0IiBhcmlhLWhpZGRlbj0idHJ1ZSIgdmlld0JveD0iMCAwIDI0IDI0IiBkYXRhLWVuY29yZS1pZD0iaWNvbiIgY2xhc3M9IlN2Zy1zYy15dGsyMWUtMCBoYU54UHEiPjxwYXRoIGQ9Im03LjA1IDMuNjA2IDEzLjQ5IDcuNzg4YS43LjcgMCAwIDEgMCAxLjIxMkw3LjA1IDIwLjM5NEEuNy43IDAgMCAxIDYgMTkuNzg4VjQuMjEyYS43LjcgMCAwIDEgMS4wNS0uNjA2eiIvPjwvc3ZnPg=="
                                 alt="">
 
-                                <img class="play" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHJvbGU9ImltZyIgaGVpZ2h0PSIxNiIgd2lkdGg9IjE2IiBhcmlhLWhpZGRlbj0idHJ1ZSIgdmlld0JveD0iMCAwIDE2IDE2IiBkYXRhLWVuY29yZS1pZD0iaWNvbiIgY2xhc3M9IlN2Zy1zYy15dGsyMWUtMCBoYU54UHEiPjxwYXRoIGQ9Ik0yLjcgMWEuNy43IDAgMCAwLS43Ljd2MTIuNmEuNy43IDAgMCAwIC43LjdoMi42YS43LjcgMCAwIDAgLjctLjdWMS43YS43LjcgMCAwIDAtLjctLjdIMi43em04IDBhLjcuNyAwIDAgMC0uNy43djEyLjZhLjcuNyAwIDAgMCAuNy43aDIuNmEuNy43IDAgMCAwIC43LS43VjEuN2EuNy43IDAgMCAwLS43LS43aC0yLjZ6Ii8+PC9zdmc+" alt="">
+                            <img class="play"
+                                src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHJvbGU9ImltZyIgaGVpZ2h0PSIxNiIgd2lkdGg9IjE2IiBhcmlhLWhpZGRlbj0idHJ1ZSIgdmlld0JveD0iMCAwIDE2IDE2IiBkYXRhLWVuY29yZS1pZD0iaWNvbiIgY2xhc3M9IlN2Zy1zYy15dGsyMWUtMCBoYU54UHEiPjxwYXRoIGQ9Ik0yLjcgMWEuNy43IDAgMCAwLS43Ljd2MTIuNmEuNy43IDAgMCAwIC43LjdoMi42YS43LjcgMCAwIDAgLjctLjdWMS43YS43LjcgMCAwIDAtLjctLjdIMi43em04IDBhLjcuNyAwIDAgMC0uNy43djEyLjZhLjcuNyAwIDAgMCAuNy43aDIuNmEuNy43IDAgMCAwIC43LS43VjEuN2EuNy43IDAgMCAwLS43LS43aC0yLjZ6Ii8+PC9zdmc+"
+                                alt="">
 
-<!-- <img src="" alt=""> -->
+                            <!-- <img src="" alt=""> -->
                         </div>
                         <div class="card-img card-1"></div>
                         <h4>today's Top Hits</h4>
@@ -356,19 +359,43 @@
 
     <!-- music playy -->
 
-    <div class="play-container flex">
+    <div class="play-container">
 
         <div class="play-profile flex">
-            <img src="https://i.scdn.co/image/ab67616d00004851813713582dcc508e7d5073c4" alt="">
-            <div class="songe-name flex">
-                <h6>Bone</h6>
-                <p>Imagin Dragon</p>
+
+            <div class="pro-image flex">
+                <img src="https://i.scdn.co/image/ab67616d00004851813713582dcc508e7d5073c4" alt="">
+
+                <div class="songe-name flex">
+                    <h6>Bone</h6>
+                    <p>Imagin Dragon</p>
+                </div>
             </div>
             <div class="like flex">
                 <i class="fa-regular fa-heart"></i>
                 <i class="fa-regular fa-closed-captioning"></i>
             </div>
 
+
+        </div>
+        <!--  -->
+        <div class="play-btns flex">
+         <p><i id="skipleft" class="fa-solid fa-forward"></i> </p>
+            <div class="circle2">
+
+
+                <img class="pause2"
+                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHJvbGU9ImltZyIgaGVpZ2h0PSIyNCIgd2lkdGg9IjI0IiBhcmlhLWhpZGRlbj0idHJ1ZSIgdmlld0JveD0iMCAwIDI0IDI0IiBkYXRhLWVuY29yZS1pZD0iaWNvbiIgY2xhc3M9IlN2Zy1zYy15dGsyMWUtMCBoYU54UHEiPjxwYXRoIGQ9Im03LjA1IDMuNjA2IDEzLjQ5IDcuNzg4YS43LjcgMCAwIDEgMCAxLjIxMkw3LjA1IDIwLjM5NEEuNy43IDAgMCAxIDYgMTkuNzg4VjQuMjEyYS43LjcgMCAwIDEgMS4wNS0uNjA2eiIvPjwvc3ZnPg=="
+                    alt="">
+                <img style="display: none;" class="play2"
+                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHJvbGU9ImltZyIgaGVpZ2h0PSIxNiIgd2lkdGg9IjE2IiBhcmlhLWhpZGRlbj0idHJ1ZSIgdmlld0JveD0iMCAwIDE2IDE2IiBkYXRhLWVuY29yZS1pZD0iaWNvbiIgY2xhc3M9IlN2Zy1zYy15dGsyMWUtMCBoYU54UHEiPjxwYXRoIGQ9Ik0yLjcgMWEuNy43IDAgMCAwLS43Ljd2MTIuNmEuNy43IDAgMCAwIC43LjdoMi42YS43LjcgMCAwIDAgLjctLjdWMS43YS43LjcgMCAwIDAtLjctLjdIMi43em04IDBhLjcuNyAwIDAgMC0uNy43djEyLjZhLjcuNyAwIDAgMCAuNy43aDIuNmEuNy43IDAgMCAwIC43LS43VjEuN2EuNy43IDAgMCAwLS43LS43aC0yLjZ6Ii8+PC9zdmc+"
+                    alt="">
+            </div>
+           <p> <i id="skipright" class="fa-solid fa-forward"></i> </p>
+        </div>
+        <!--  -->
+
+        <div class="play-right-icons">
 
         </div>
     </div>
